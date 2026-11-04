@@ -1,0 +1,132 @@
+:root {
+  /*======================================
+      Background Colors
+    ======================================*/
+
+  --bg-primary: #05070b;
+  --bg-secondary: #0b1220;
+  --bg-tertiary: #101827;
+  --bg-surface: #151d2b;
+
+  /*======================================
+      Gold Palette
+    ======================================*/
+
+  --gold-primary: #d4af37;
+  --gold-secondary: #c89b3c;
+  --gold-dark: #b8860b;
+  --gold-bronze: #9f6b1d;
+  --gold-deep: #6c4715;
+
+  /*======================================
+      Gold Highlights
+    ======================================*/
+
+  --gold-light: #ffd873;
+  --gold-glow: #f7c948;
+  --gold-bright: #e6b94a;
+  --gold-accent: #e0a82e;
+
+  /*======================================
+      Stone Colors
+    ======================================*/
+
+  --stone-light: #82715f;
+  --stone: #6e6255;
+  --stone-dark: #544a42;
+  --stone-darker: #3b342e;
+  --stone-black: #292420;
+
+  /*======================================
+      Warm Light
+    ======================================*/
+
+  --light-primary: #f5d98b;
+  --light-secondary: #d8a84d;
+  --light-dark: #be8a31;
+  --light-deep: #8e5a19;
+
+  /*======================================
+      Brown Palette
+    ======================================*/
+
+  --brown-primary: #7b4a1a;
+  --brown-secondary: #5c3618;
+  --brown-dark: #4a2e15;
+
+  /*======================================
+      Typography
+    ======================================*/
+
+  --text-heading: #f2d38a;
+  --text-primary: #d5c29a;
+  --text-secondary: #a89163;
+
+  /*======================================
+      Borders
+    ======================================*/
+
+  --border-primary: #d4af37;
+  --border-light: rgba(212, 175, 55, 0.4);
+
+  /*======================================
+      Overlay
+    ======================================*/
+
+  --overlay-dark: rgba(0, 0, 0, 0.45);
+  --overlay-heavy: rgba(0, 0, 0, 0.65);
+
+  /*======================================
+      Shadows
+    ======================================*/
+
+  --shadow-gold: 0 0 30px rgba(212, 175, 55, 0.18);
+  --shadow-gold-strong: 0 0 50px rgba(212, 175, 55, 0.3);
+
+  /*======================================
+      Gradients
+    ======================================*/
+
+  --gradient-background: linear-gradient(
+    180deg,
+    #05070b 0%,
+    #0b1220 35%,
+    #151d2b 60%,
+    #05070b 100%
+  );
+
+  --gradient-gold: linear-gradient(
+    90deg,
+    #8b5e1a,
+    #d4af37,
+    #ffd873,
+    #d4af37,
+    #8b5e1a
+  );
+}
+
+:root {
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 40px;
+
+  /* Transition */
+  --transition-fast: 0.25s ease;
+  --transition-normal: 0.4s ease;
+  --transition-slow: 0.6s ease;
+
+  /* Container */
+  --container-width: 1400px;
+
+  /* Header */
+  --header-height: 90px;
+
+  /* Blur */
+  --blur-primary: blur(10px);
+
+  /* Z-index */
+  --z-header: 1000;
+  --z-modal: 5000;
+}

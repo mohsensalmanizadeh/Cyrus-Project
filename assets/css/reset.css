@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "cinzel", sans-serif;
+  background: var(--bg-secondary);
+}
+
+ul {
+  list-style-type: none;
+}
+ul a {
+  transition: 2s ease-in-out inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,22 @@
+/*  ADD FONTS */
+
+@font-face {
+  font-family: "cinzel";
+  src: url("../fonts/Cinzel-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: 300;
+}
+
+@font-face {
+  font-family: "cinzel";
+  src: url("../fonts/cinzel/Cinzel-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: 500;
+}
+
+@font-face {
+  font-family: "cinzel";
+  src: url("../fonts/cinzel/Cinzel-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: bold;
+}
